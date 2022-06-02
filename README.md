@@ -54,7 +54,8 @@ This is the code of paper <Korda, M. (2020). Computing controlled invariant sets
 3. Code of reference-Semidefinite approximations of reachable sets for discrete-time polynomial systems
 This is the code of paper <V. Magron(2019). Semidefinite approximations of reachable sets for discrete-time polynomial systems. SIAM Journal on Control and Optimization, 57(4).> which tells the truth that an "infinite-horizon RS" is different from the "union of finite-horizon RS(funnel)". As a comparison, we also provide a code demo of FT with Dirac measure approximation.
 
-3. typical code of FT
+4. typical code of FT
+
 1) Solving example A by FT and SOS respectively;
 2) Solving example B by FT and SOS respectively; 
 3) ROA approximation examples C (Including a ROA approximation by different SOS-based methods and a main code of FT.)
