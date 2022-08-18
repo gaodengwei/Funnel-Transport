@@ -43,7 +43,7 @@ Tips: GPOPS-II is the next generation of general-purpose optimal control softwar
 
 ======================II. Code Introductions:================================= 
 
-The reviewer always confuses the basic concept of the union of finite-horizon reachable sets and the inFinite-Horizon reachable set(invariant set). The main code of reference <Korda, M. (2020). Computing controlled invariant sets from data using convex optimization. SIAM Journal on Control and Optimization, 58(5), 2871-2899.> and the main code of reference <V. Magron(2019). Semidefinite approximations of reachable sets for discrete-time polynomial systems. SIAM Journal on Control and Optimization, 57(4).> are provided here. Funnel approximation by using FT method and SOS-based method are also provided here applying for examples "Pendulum Swing Up"(FT is faster) and "ROA approximation"(SOS is faster).
+The main code of reference <Korda, M. (2020). Computing controlled invariant sets from data using convex optimization. SIAM Journal on Control and Optimization, 58(5), 2871-2899.> and the main code of reference <V. Magron(2019). Semidefinite approximations of reachable sets for discrete-time polynomial systems. SIAM Journal on Control and Optimization, 57(4).> are provided here. Funnel approximation by using FT method and SOS-based method are also provided here applying for examples "Pendulum Swing Up"(FT is faster) and "ROA approximation"(SOS is faster).
 
 1. A moment matrix computation for inner approximation/outer approximation/approximation for a Semi-algebraic Sets constraint(a unit square).
 This is the code in the second time response. We have shown the different moment matrix approximations only in state-space X. It is simple and mature. 
